@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": "7.0.0",
           "MongoDB.Driver": "2.18.0",
-          "Swashbuckle.AspNetCore": "6.4.0"
+          "Swashbuckle.AspNetCore": "6.4.0",
+          "Swashbuckle.AspNetCore.Swagger": "6.4.0"
         },
         "runtime": {
           "MongoExample.dll": {}

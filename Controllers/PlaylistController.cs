@@ -35,7 +35,11 @@ public class PlaylistController : Controller{
         return NoContent(); //status 204 No Content, or Ok() status code 200;
     }
 
- 
+ /// <summary>
+/// Deletes a specific TodoItem.
+/// </summary>
+/// <param name="id"></param>
+/// <returns></returns>
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete (string id) {
         await _mongoDBService.DeleteAsync(id);

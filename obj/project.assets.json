@@ -1114,7 +1114,8 @@
     "net7.0": [
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "MongoDB.Driver >= 2.18.0",
-      "Swashbuckle.AspNetCore >= 6.4.0"
+      "Swashbuckle.AspNetCore >= 6.4.0",
+      "Swashbuckle.AspNetCore.Swagger >= 6.4.0"
     ]
   },
   "packageFolders": {
@@ -1171,6 +1172,10 @@
             "version": "[2.18.0, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "[6.4.0, )"
           }
